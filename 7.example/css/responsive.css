@@ -1,0 +1,38 @@
+.hamburger {
+  display: none;
+  cursor: pointer;
+  float: right;
+  background: none;
+  border: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+}
+
+/* Media query para tablets*/
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+
+  /* nav .hamburger {
+    display: block;
+  } */
+
+}
+
+/* Para celulares */
+@media screen and (max-width: 480px) {
+  .logo img {
+    height: 20px;
+  }
+
+  header {
+    padding: 15px;
+  }
+}
