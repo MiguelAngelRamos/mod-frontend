@@ -36,3 +36,21 @@
     padding: 15px;
   }
 }
+
+/* Estilos para el menú de navegación móvil*/
+.mobile-nav {
+  display: block;
+  background-color: #333333;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 100%;
+} 
+
+.mobile-nav li {
+  float: none;
+  margin: 10px 0;
+  text-align: center;
+  /* margin: 10px 0 10px 0; */
+  /*top right botom left*/
+}
