@@ -15,6 +15,8 @@
 }
 
 /* Media query para tablets*/
+
+
 @media screen and (max-width: 768px) {
   nav ul {
     display: none;
@@ -35,7 +37,9 @@
   header {
     padding: 15px;
   }
+
 }
+
 
 /* Estilos para el menú de navegación móvil*/
 .mobile-nav {
