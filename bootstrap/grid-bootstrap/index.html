@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Estilos de bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+ <!-- /Estilos de bootstrap -->
+
+  <!-- Tus estilos deben ir despues de la hoja de bootstrap si quieres sobreescribir estilos de bs -->
+ <link rel="stylesheet" href="css/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="container">
+  <!-- fila 1 -->
+   <header class="row">
+    <div class="col">
+      <h1>Header</h1>
+      <p>12 columnas</p>
+    </div>
+   </header>
+  <!-- fila 2 -->
+   <section class="row mb-4">
+<!-- col con 12 por defecto en la version 4 no -->
+    <main class="col-md-8">
+      <h2>Main</h2>
+      <!-- display: none => d-none en boostrap-->
+      <p class="d-none d-md-block">8 columnas</p>
+      <p class="d-block d-md-none">12 columnas</p>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquam eaque ducimus, dignissimos voluptatem ad, distinctio vero, perspiciatis voluptatibus magnam quidem cum dicta? Qui, dolore similique delectus error eius architecto?</p>
+    </main>
+
+    <aside class="col-md-4">
+      <h3>Aside</h3>
+      <p class="d-none d-md-block">4 columnas</p>
+      <p class="d-block d-md-none">12 columnas</p>
+    </aside>
+
+   </section>
+  <!-- fila 3 -->
+   <section class="row widgets justify-content-between">
+
+    <div class="col-12 col-md-4 col-lg-3">
+      <p class="d-none d-lg-block">3 Columnas</p>
+      <p class="d-none d-md-block d-lg-none">4 Columnas</p>
+      <p class="d-block d-md-none">12 Columnas</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi delectus perspiciatis beatae nobis optio repellat aut, tenetur voluptate dolore culpa doloribus doloremque tempora tempore? Sequi reprehenderit quos omnis maxime iste.
+      </p>
+    </div>
+
+    <div class="col-12 col-md-4 col-lg-3">
+      <p class="d-none d-lg-block">3 Columnas</p>
+      <p class="d-none d-md-block d-lg-none">4 Columnas</p>
+      <p class="d-block d-md-none">12 Columnas</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi delectus perspiciatis beatae nobis optio repellat aut, tenetur voluptate dolore culpa doloribus doloremque tempora tempore? Sequi reprehenderit quos omnis maxime iste.
+      </p>
+    </div>
+
+    <div class="col-12 col-md-4 col-lg-3">
+      <p class="d-none d-lg-block">3 Columnas</p>
+      <p class="d-none d-md-block d-lg-none">4 Columnas</p>
+      <p class="d-block d-md-none">12 Columnas</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi delectus perspiciatis beatae nobis optio repellat aut, tenetur voluptate dolore culpa doloribus doloremque tempora tempore? Sequi reprehenderit quos omnis maxime iste.
+      </p>
+    </div>
+
+   </section>
+
+   <footer class="row">
+      <div class="col">
+        <h4>Footer</h4>
+        <p>12 columna</p>
+      </div>
+   </footer>
+  </div>
+
+  <!-- Javascript necesarios para bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  <!-- /Javascript necesarios para bootstrap -->
+</body>
+</html>
