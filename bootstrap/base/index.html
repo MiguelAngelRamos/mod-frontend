@@ -15,26 +15,64 @@
 <body>
   
   <div class="container">
-
+  <!-- fila 1 -->
    <header class="row">
     <div class="col">
       <h1>Header</h1>
       <p>12 columnas</p>
     </div>
    </header>
-
+  <!-- fila 2 -->
    <section class="row">
-
-    <main class="col-8">
+<!-- col con 12 por defecto en la version 4 no -->
+    <main class="col-md-8">
       <h2>Main</h2>
+      <!-- display: none => d-none en boostrap-->
+      <p class="d-none d-md-block">8 columnas</p>
+      <p class="d-block d-md-none">12 columnas</p>
+
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquam eaque ducimus, dignissimos voluptatem ad, distinctio vero, perspiciatis voluptatibus magnam quidem cum dicta? Qui, dolore similique delectus error eius architecto?</p>
     </main>
 
-    <aside class="col-4">
+    <aside class="col-md-4">
       <h3>Aside</h3>
+      <p class="d-none d-md-block">4 columnas</p>
+      <p class="d-block d-md-none">12 columnas</p>
     </aside>
 
    </section>
+  <!-- fila 3 -->
+   <section class="row widgets justify-content-between">
+
+    <div class="col-12 col-md-4 col-lg-3">
+      <p class="d-none d-lg-block">3 Columnas</p>
+      <p class="d-none d-md-block d-lg-none">4 Columnas</p>
+      <p class="d-block d-md-none">12 Columnas</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi delectus perspiciatis beatae nobis optio repellat aut, tenetur voluptate dolore culpa doloribus doloremque tempora tempore? Sequi reprehenderit quos omnis maxime iste.
+      </p>
+    </div>
+
+    <div class="col-12 col-md-4 col-lg-3">
+      <p class="d-none d-lg-block">3 Columnas</p>
+      <p class="d-none d-md-block d-lg-none">4 Columnas</p>
+      <p class="d-block d-md-none">12 Columnas</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi delectus perspiciatis beatae nobis optio repellat aut, tenetur voluptate dolore culpa doloribus doloremque tempora tempore? Sequi reprehenderit quos omnis maxime iste.
+      </p>
+    </div>
+
+    <div class="col-12 col-md-4 col-lg-3">
+      <p class="d-none d-lg-block">3 Columnas</p>
+      <p class="d-none d-md-block d-lg-none">4 Columnas</p>
+      <p class="d-block d-md-none">12 Columnas</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi delectus perspiciatis beatae nobis optio repellat aut, tenetur voluptate dolore culpa doloribus doloremque tempora tempore? Sequi reprehenderit quos omnis maxime iste.
+      </p>
+    </div>
+
+   </section>
+
   </div>
 
   <!-- Javascript necesarios para bootstrap -->
