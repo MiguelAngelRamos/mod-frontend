@@ -1,0 +1,21 @@
+body {
+  background: #f0f3f5;
+  color: #fff;
+}
+
+header {
+  background: #9aca40;
+  padding: 20px;
+}
+
+main {
+  background: #fff;
+  color: #424242;
+  padding: 20px 0;
+}
+
+aside {
+  background: #dee5e8;
+  padding: 60px 0;
+  color: #0d47a1;
+}
