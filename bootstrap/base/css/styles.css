@@ -20,8 +20,16 @@ aside {
   color: #0d47a1;
 }
 
+.widgets {
+  margin-bottom: 20px;
+}
 .widgets > div {
   background: #2196f3;
   color: #fff;
   padding: 20px;
+}
+
+footer {
+  background: #1e1e1e;
+  padding: 20px 0;
 }
