@@ -1,7 +1,19 @@
 function toggleMenu() {
   let nav = document.querySelector("nav ul"); // capturamos el ul
-  nav.classList.toggle("mobile-nav");
+  nav.classList.toggle("mobile-nav"); //* le agrega y le quita la clase al ul
   console.log(nav)
+}
+
+function removeMobileNav() {
+
+  //* condicionales Si
+
+  if(window.innerWidth >= 769) {
+    console.log('resolución');
+    let navMenu = document.querySelector('#nav-menu'); //* capturar al ul para quitarle la clase
+    navMenu.classList.remove('mobile-nav');
+  }
+
 }
 
 
