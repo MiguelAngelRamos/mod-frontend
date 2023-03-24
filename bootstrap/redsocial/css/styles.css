@@ -1,3 +1,33 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.left-side {
+  background-color: #1DA1F2;
+  color: white;
+  min-height: 100vh;
+}
+
+.left-side .icon-text {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  /* Tamaño por defecto 16px 
+   1 rem = 16px
+   2 rem = 32px;
+  */
+}
+
+.left-side i {
+  margin-right: 0.5rem;
+}
+
+.left-side .icon-text span {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 1rem;
+}
+
+.container-icon-text {
+  margin: 0 auto;
+}
