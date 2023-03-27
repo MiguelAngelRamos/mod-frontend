@@ -11,7 +11,6 @@ function sumar(number1, number2) {
   let resultado = number1 + number2;
   return resultado;
 }
-
 // sumar(numero1, numero2); //* sumar(4, 10);
 
 // console.log(sumar(numero1, numero2))
