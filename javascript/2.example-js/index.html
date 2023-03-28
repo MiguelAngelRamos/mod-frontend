@@ -16,7 +16,7 @@
   <div class="container mt-5">
     <h2>Inicia Sesión</h2>
 
-    <form>
+    <form id="login-form">
       <div class="form-group">
         <label for="input-email">Correo electrónico</label>
         <input type="email" class="form-control" id="input-email"/>
@@ -27,10 +27,11 @@
         <label for="password-input">Contraseña</label>
         <!-- input.form-control#password-input -->
         <input type="password" class="form-control" id="password-input"/>
+        <small id="passwordHelp" class="form-text text-danger"></small>
       </div>
 
+      
       <button type="submit" class="btn btn-success">Ingresar</button>
-
     </form>
 
 
