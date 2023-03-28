@@ -1,0 +1,33 @@
+.password-container {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.password-toggle:before {
+  content: "\f06e";
+  font-family: "FontAwesome";
+  color: #999;
+}
+
+.password-toggle.active:before {
+  content: "\f070";
+}
+
+#password {
+  padding-right: 40px;
+  border-right: none;
+}
+
+.password-toggle {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+}

@@ -4,17 +4,19 @@ document.addEventListener("DOMContentLoaded", function() {
   let email = document.querySelector("#input-email");
   let password = document.querySelector("#password-input");
 
+
   function validate() {
     //* retornar verdadero o falso
     //* CORREO ELECTRONICO
     let emailValue = email.value;
     let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     console.log(email.value);
+
     if(!emailRegex.test(emailValue)) {
       document.querySelector("#emailHelp").innerHTML = "Por favor, ingresa un correo electrónico válido";
       return false;
     } else {
-   
+      document.querySelector("#emailHelp").innerHTML = "";
     }
 
     //* CONTRASEÑA
@@ -39,7 +41,9 @@ document.addEventListener("DOMContentLoaded", function() {
       //* impido que se envie el formulario
     } else {
       //* false
-      alert('El formulario se envio correctamente');
+      alert('El formulario se envio correctamente');  
+      document.querySelector("#emailHelp").innerHTML = "";
+      document.querySelector("#passwordHelp").innerHTML ="";
     }
 
 
