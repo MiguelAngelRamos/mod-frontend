@@ -1,7 +1,5 @@
 //* Ambito de las variables
-
 //* con var
-
 var edad = 20;
 
 //* condicional if (si)
@@ -22,7 +20,6 @@ console.log(edad); //* deberia ser 20 y no 40
 //* var no respeta el scope
 
 //* Con let
-
 let altura = 400;
 
 if(true) {
